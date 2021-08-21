@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    ;
+    <link rel="stylesheet" href="style.css">
+
+    <!-- <link rel="stylesheet" href="style2.css"> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="script.js"></script>
+    <title>Gopal</title>
+    <script src="function.js"></script>
+
+
+</head>
+
+<body>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                <nav id="navbar">
+                    <header>Table of Contents</header>
+                    <ul class="nav nav-pills nav-stacked menu-list">
+                        <li>
+                            <a class="nav-link dropbtn headpad" onclick="va() ">Dedication </a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="va() ">Introduction
+                            </a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="va() ">My Lord and
+                                Master Poem </a>
+                        </li>
+                        
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="va() ">Audio collection</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad"
+                                onclick="seminar() ">Seminars</a>
+
+
+                            <ul id="smn" class="dropdown-content">
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="AOD() ">Art of dying</a>
+
+                                    <ul id="aod" class="dropdown-content">
+                                        <li><a class="nav-link dropbtn" onclick="aodp1() ">Part - 1</a></li>
+                                        <li><a class="nav-link dropbtn" onclick="aodp2() ">Part - 2</a></li>
+                                        <li><a class="nav-link dropbtn" onclick="aodp3() ">Part - 3</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="brahm() ">Brahmacarya</a>
+
+                                    <ul id="brahm" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="bg() ">Bhagwad Gita</a>
+
+                                    <ul id="bg" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 4</a></li>
+                                        <li><a>Part - 6</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="vh() ">The History of Our Vaishnava
+                                        Heritage</a>
+
+                                    <ul id="vh" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 4</a></li>
+                                        <li><a>Part - 5</a></li>
+                                        <li><a>Part - 6</a></li>
+                                        <li><a>Part - 7</a></li>
+                                        <li><a>Part - 8</a></li>
+                                        <li><a>Part - 9</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="mk() ">Madhurya Kadambini</a>
+
+                                    <ul id="mk" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 4</a></li>
+                                        <li><a>Part - 5</a></li>
+                                        <li><a>Part - 6</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="kp() ">Lord Krishna's Pastimes</a>
+
+                                    <ul id="kp" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 4</a></li>
+                                        <li><a>Part - 5</a></li>
+                                        <li><a>Part - 6</a></li>
+                                        <li><a>Part - 7</a></li>
+                                        <li><a>Seminar in new Jagannath puri</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="tlc() ">Teachings of Lord Chaitanya</a>
+
+                                    <ul id="tlc" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="ve() ">Vaishnava Etiquette</a>
+
+                                    <ul id="ve" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="ks() ">Krishna Samhita</a>
+
+                                    <ul id="ks" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="ssu() ">Saranagati Seminar, Ujjain</a>
+
+                                    <ul id="ssu" class="dropdown-content">
+                                        <li><a href="#">Part - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 4</a></li>
+                                        <li><a>Part - 5</a></li>
+                                        <li><a>Part - 6</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a class="nav-link dropbtn" onclick="ug() ">Uddhava Gita</a>
+
+                                    <ul id="ug" class="dropdown-content">
+                                        <li><a href="#">Day - 1</a></li>
+                                        <li><a>Part - 2</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 3</a></li>
+                                        <li><a>Part - 3</a></li>
+
+
+                                    </ul>
+                                </li>
+                                <li><a></a></li>
+                                <li><a>Leicester Retreat - Krishna's pastimes</a></li>
+                                <li><a>Relationships</a></li>
+                            </ul>
+                        </li>
+
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="bgclass() ">Bhagwad
+                                Gita classes</a>
+
+
+                            <ul id="bgc" class="dropdown-content">
+                                <li> <a class="nav-link dropbtn" onclick="bgclasses1()">BG 3.33</a></li>
+                                <li> <a class="nav-link dropbtn" onclick="bgclasses2()">BG 2.19</a></li>
+                                <li> <a class="nav-link dropbtn" onclick="bgclasses3()">BG 2.7</a></li>
+                                <li> <a class="nav-link dropbtn" onclick="bgclasses4()">BG 7</a></li>
+                                <li> <a class="nav-link dropbtn" onclick="bgclasses5()">BG Chapter 1-6</a></li>
+
+
+                            </ul>
+                        </li>
+
+
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="sbclass() ">Srimad
+                                Bhagwatam</a>
+
+
+                            <ul id="sbc" class="dropdown-content">
+                                <li><a href="#">First Canto</a></li>
+                                <li><a>Second Canto</a></li>
+                                <li><a>Third Canto</a></li>
+                                <li><a>Fourth Canto</a></li>
+                                <li><a>Fifth Canto</a></li>
+                                <li><a>Seven Canto</a></li>
+                                <li><a>Eight Canto</a></li>
+                                <li><a>Tenth Canto</a></li>
+                                <li><a>Eleventh Canto</a></li>
+
+
+                            </ul>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="cc() ">Chaitanya
+                                charitamrita</a>
+
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="spp() ">Srila
+                                Prabhupada Pastimes</a>
+
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="spp() ">Srila
+                                Prabhupada Glorification</a>
+
+                        </li>
+
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="va() ">Vaishnava
+                                acaryas</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="va() ">Vaishnava Sadachar</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="vpl() ">Various
+                                Preaching Lectures</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="vo() ">Abhay
+                                Charan</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="vo() ">Ocean of
+                                Mercy</a>
+                        </li>
+
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="vo() ">Vyaspuja
+                                Offering</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="fc() ">Festival
+                                Classes</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="sc() ">Selected
+                                Classes</a>
+                        </li>
+                        <li>
+                            <a style="margin-top:-32px;" class="nav-link dropbtn headpad" onclick="vo() ">Memorial
+                                Festival</a>
+                            <ul id="sbc" class="dropdown-content">
+                                <li><a href="#">Memorial Festival 2020</a></li>
+                                <li><a>Memorial Festival 2021</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+
+            <div class="col-md-10 col-sm-12 col-xs-12">
+                <div style="background-color: #4d8eb9;margin-left: 4rem;margin-top: -1rem;height: 100px;width: 1000px;">
+                    <h1 style="text-align:center;padding:2px 6px;color: white;"> HH Bhakti Charu Swami Maharaja</h1>
+
+                </div>
+                <main id="main-doc">
+                    <section class="main-section" id="Introduction">
+
+                        <article>
+                            <h1 id="intro"></h1>
+
+
+
+                            </artice>
+                    </section>
+
+                </main>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
